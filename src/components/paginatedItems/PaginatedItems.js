@@ -9,7 +9,8 @@ import './paginated-items.css';
 export function PaginatedItems({itemsPerPage}){
 
     const [courses, setCourses] = useState(LocalStorageService.get(LS_KEYS.COURSES_LIST) || null);
-    
+    const [currentCourses, setCurrentCourses] = useState(null)
+    let pageCount;
     useEffect(() => {
         const fetchData = async () => {
             await DataLoader.set(DATA_URL.PATH)
@@ -21,8 +22,13 @@ export function PaginatedItems({itemsPerPage}){
 
     const [itemOffset, setItemOffset] = useState(0);
     const endOffset = itemOffset + itemsPerPage;
-    const currentCourses = courses.slice(itemOffset, endOffset);
-    const pageCount = Math.ceil(courses.length / itemsPerPage);
+      useEffect(() => {
+        if(courses){
+          setCurrentCourses(courses.slice(itemOffset, endOffset));
+          pageCount = Math.ceil(courses.length / itemsPerPage);
+        }
+      }, [courses]);
+
     const handlePageClick = (event) => {
         console.log(event)
         const newOffset = (event.selected * itemsPerPage) % courses.length;
@@ -31,7 +37,10 @@ export function PaginatedItems({itemsPerPage}){
 
   return (
     <>
-      <Courses currentItems={currentCourses} />
+      { currentCourses 
+        ? <Courses currentItems={currentCourses} />
+        : null
+      }
       <ReactPaginate
         breakLabel="..."
         nextLabel="next >"
