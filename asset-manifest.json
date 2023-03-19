@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Genesis-Front-End-School/static/css/main.797795c6.css",
-    "main.js": "/Genesis-Front-End-School/static/js/main.f18f1bd6.js",
+    "main.js": "/Genesis-Front-End-School/static/js/main.95c6523a.js",
     "static/js/787.bc2d438b.chunk.js": "/Genesis-Front-End-School/static/js/787.bc2d438b.chunk.js",
     "index.html": "/Genesis-Front-End-School/index.html",
     "main.797795c6.css.map": "/Genesis-Front-End-School/static/css/main.797795c6.css.map",
-    "main.f18f1bd6.js.map": "/Genesis-Front-End-School/static/js/main.f18f1bd6.js.map",
+    "main.95c6523a.js.map": "/Genesis-Front-End-School/static/js/main.95c6523a.js.map",
     "787.bc2d438b.chunk.js.map": "/Genesis-Front-End-School/static/js/787.bc2d438b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.797795c6.css",
-    "static/js/main.f18f1bd6.js"
+    "static/js/main.95c6523a.js"
   ]
 }
