@@ -1,0 +1,40 @@
+ul[role="navigation"]{
+    width: calc(100% - 48px);
+    max-width: 1200px;
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    li{
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+        float: left;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+        &::marker{
+            content: "";
+        }
+        &.active{
+            background-color: #4eb3ed;
+            color: #fff;
+            border: 1px solid #4eb3ed;
+        }
+        &:hover{
+            &:not(.active){
+                background-color: #7fffd4;
+            }
+        }
+        a{
+            display: inline-block;
+            padding: 8px 16px;
+        }
+    }
+}
+
+@media screen and (max-width : 767.9px) {
+    // .pagination-button-dispaly{
+    //     display: none;
+    // }
+}

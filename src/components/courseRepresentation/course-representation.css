@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+  .course-container {
+    border: 1px solid #000;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    margin: 15px;
+    max-width: 1200px;
+  }
+  .course-container:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  .course-container:nth-child(odd) img {
+    border-left: 1px solid #000;
+    border-radius: 0 15px 15px 0;
+  }
+  .course-container:nth-child(even) img {
+    border-right: 1px solid #000;
+  }
+  .course-container img {
+    border-radius: 15px 0 0 15px;
+    max-width: 50%;
+  }
+  .course-container .course-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    text-align: start;
+    width: 100%;
+    margin: 15px;
+  }
+  .course-container .course-info * {
+    margin-bottom: 0;
+  }
+  .course-container .course-info .title {
+    text-align: center;
+  }
+  .course-container .course-info .skill-list::first-line {
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+  }
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  color: #000;
+}/*# sourceMappingURL=course-representation.css.map */

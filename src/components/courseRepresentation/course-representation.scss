@@ -1,0 +1,55 @@
+
+@media screen and (min-width : 768px) {
+    .course-container{
+        border: 1px solid #000;
+        border-radius:15px;
+        cursor: pointer;
+        display: flex;
+        margin: 15px;
+        max-width: 1200px;
+        &:nth-child(odd){
+            flex-direction: row-reverse;
+            img{
+                border-left: 1px solid #000;
+                border-radius: 0 15px 15px 0;
+            }
+        }
+        &:nth-child(even){
+            img{
+                border-right: 1px solid #000;
+            }
+        }
+        img{
+
+            border-radius: 15px 0 0 15px;
+            max-width: 50%;
+        }
+        .course-info{
+            display: flex;
+            flex-direction: column;
+            max-width: 1200px;
+            text-align: start;
+            width: 100%;
+            *{
+                margin-bottom: 0;
+            }
+            margin: 15px;
+            .title{
+                text-align: center;
+            }
+            .skill-list{
+                &::first-line{
+                    padding-inline-start: 0px;
+                }
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    &:visited{
+        color: #000;
+    }
+}

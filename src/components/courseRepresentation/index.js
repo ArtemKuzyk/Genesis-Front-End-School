@@ -1,0 +1,1 @@
+export { CourseRepresentation } from "./CourseRepresentation";

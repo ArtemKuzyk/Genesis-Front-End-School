@@ -1,21 +1,30 @@
 {
   "name": "genesis-front-end-school",
+  "homepage": "https://github.com/ArtemKuzyk/Genesis-Front-End-School",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-paginate": "^8.1.4",
+    "react-player": "^2.12.0",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
+    "video.js": "^8.0.4",
+    "videojs-react-enhanced": "^0.3.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

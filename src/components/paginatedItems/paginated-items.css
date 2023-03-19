@@ -1,0 +1,32 @@
+ul[role=navigation] {
+  width: calc(100% - 48px);
+  max-width: 1200px;
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+}
+ul[role=navigation] li {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  float: left;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+ul[role=navigation] li::marker {
+  content: "";
+}
+ul[role=navigation] li.active {
+  background-color: #4eb3ed;
+  color: #fff;
+  border: 1px solid #4eb3ed;
+}
+ul[role=navigation] li:hover:not(.active) {
+  background-color: #7fffd4;
+}
+ul[role=navigation] li a {
+  display: inline-block;
+  padding: 8px 16px;
+}/*# sourceMappingURL=paginated-items.css.map */
