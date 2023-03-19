@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ArtemKuzyk/Genesis-Front-End-School/static/css/main.afe1821e.css",
+    "main.js": "/ArtemKuzyk/Genesis-Front-End-School/static/js/main.f6f62b60.js",
+    "static/js/787.bc2d438b.chunk.js": "/ArtemKuzyk/Genesis-Front-End-School/static/js/787.bc2d438b.chunk.js",
+    "index.html": "/ArtemKuzyk/Genesis-Front-End-School/index.html",
+    "main.afe1821e.css.map": "/ArtemKuzyk/Genesis-Front-End-School/static/css/main.afe1821e.css.map",
+    "main.f6f62b60.js.map": "/ArtemKuzyk/Genesis-Front-End-School/static/js/main.f6f62b60.js.map",
+    "787.bc2d438b.chunk.js.map": "/ArtemKuzyk/Genesis-Front-End-School/static/js/787.bc2d438b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afe1821e.css",
+    "static/js/main.f6f62b60.js"
+  ]
+}
