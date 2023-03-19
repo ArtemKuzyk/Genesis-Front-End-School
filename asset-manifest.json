@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ArtemKuzyk/Genesis-Front-End-School/static/css/main.afe1821e.css",
-    "main.js": "/ArtemKuzyk/Genesis-Front-End-School/static/js/main.f6f62b60.js",
-    "static/js/787.bc2d438b.chunk.js": "/ArtemKuzyk/Genesis-Front-End-School/static/js/787.bc2d438b.chunk.js",
-    "index.html": "/ArtemKuzyk/Genesis-Front-End-School/index.html",
-    "main.afe1821e.css.map": "/ArtemKuzyk/Genesis-Front-End-School/static/css/main.afe1821e.css.map",
-    "main.f6f62b60.js.map": "/ArtemKuzyk/Genesis-Front-End-School/static/js/main.f6f62b60.js.map",
-    "787.bc2d438b.chunk.js.map": "/ArtemKuzyk/Genesis-Front-End-School/static/js/787.bc2d438b.chunk.js.map"
+    "main.css": "/Genesis-Front-End-School/static/css/main.797795c6.css",
+    "main.js": "/Genesis-Front-End-School/static/js/main.f18f1bd6.js",
+    "static/js/787.bc2d438b.chunk.js": "/Genesis-Front-End-School/static/js/787.bc2d438b.chunk.js",
+    "index.html": "/Genesis-Front-End-School/index.html",
+    "main.797795c6.css.map": "/Genesis-Front-End-School/static/css/main.797795c6.css.map",
+    "main.f18f1bd6.js.map": "/Genesis-Front-End-School/static/js/main.f18f1bd6.js.map",
+    "787.bc2d438b.chunk.js.map": "/Genesis-Front-End-School/static/js/787.bc2d438b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe1821e.css",
-    "static/js/main.f6f62b60.js"
+    "static/css/main.797795c6.css",
+    "static/js/main.f18f1bd6.js"
   ]
 }
