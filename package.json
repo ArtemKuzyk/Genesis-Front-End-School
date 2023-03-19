@@ -1,6 +1,6 @@
 {
   "name": "genesis-front-end-school",
-  "homepage": "https://github.com/ArtemKuzyk/Genesis-Front-End-School",
+  "homepage": "https://ArtemKuzyk.github.io/Genesis-Front-End-School",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "classnames": "^2.3.2",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-paginate": "^8.1.4",
